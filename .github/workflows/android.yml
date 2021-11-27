@@ -32,4 +32,4 @@ jobs:
           ndk-build
           popd
           cd app
-          ../gradlew assembleRelease
+          ../gradlew assembleRelease --scan
